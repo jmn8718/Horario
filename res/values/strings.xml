@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Horarios Bus FI UPM</string>
+    <string name="destino">Destino</string>
+    <string name="aluche">Aluche</string>
+    <string name="facultad">Facultad de Informatica</string>
+    <string name="linea591">Linea 591</string>
+    <string name="title_activity_horario">Horario</string>
+    <string name="volver">VOLVER</string>
+    <string name="horario">Horario Linea 591</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textViewFacultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/facultad"
+        android:layout_margin="@dimen/marginNormal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView
+        android:id="@+id/textViewLinea591"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFacultad"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/marginSmall"
+        android:text="@string/linea591" />
+	
+    <TextView
+        android:id="@+id/textViewDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLinea591"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginBig"
+        android:text="@string/destino" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonFacultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDestino"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/marginNormal"
+        android:text="@string/facultad" />
+
+    <Button
+        android:id="@+id/buttonAluche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonFacultad"
+        android:layout_alignRight="@+id/buttonFacultad"
+        android:layout_below="@+id/buttonFacultad"
+        android:layout_margin="@dimen/marginSmall"
+        android:text="@string/aluche" />
+
+</RelativeLayout>
